@@ -1,0 +1,177 @@
+:root {
+    --clr-primary: #9C69E2;
+    --clr-secundary: #F063B8;
+
+    --clr-white: #fff;
+    --clr-neutral: #4B5D68;
+    --clr-accent: #212353;
+
+    --ff-primary: 'Avenir', sans-serif;
+    --ff-secundary: 'Helvetica', sans-serif;
+}
+/* html elements styles */
+body {
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--clr-neutral);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p { 
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-secundary);
+    color: var(--clr-accent);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 110%;
+}
+
+strong {
+    color: var(--clr-accent);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none; 
+}
+main {
+    width: 100vh;
+    margin: auto;
+}
+
+header {
+    margin-top: 2%;
+    /* margin-left: 15%; */
+}
+
+button {
+    font-family: var(--ff-primary);
+    font-weight: 800;
+}
+
+section {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/* classes styles */
+.logo {
+    position: relative;
+    top: 12px;
+}
+
+.navbar {
+    margin-left: 7.5%;
+}
+
+.nav-link {
+    font-size: 16px;
+    padding: 2.5%;
+}
+
+.active {
+    color: var(--clr-accent);
+    font-weight: 800;
+}
+
+.bttn-demo {
+    position: relative;
+    left: 26%;
+    text-align: center;
+    color: var(--clr-accent);
+    line-height: 160%;
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+}
+
+.bttn-demo span {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+}
+
+.arrow {
+    position: relative;
+    left: 6px;
+    top: 2px;
+    width: 20px;
+}
+
+.bttn-primary {
+    text-align: center;
+    color: var(--clr-white);
+    font-size: 18px;
+    line-height: 160%;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+}
+
+.half-col {
+    width: 50%;
+}
+
+.hero-title {
+    z-index: 1;
+}
+
+.hero-copy {
+    width: 65%;
+}
+
+.hero-image {
+    z-index: -1;
+    display: flex;
+    width: 885px;
+    position: relative;
+    top: 8vh;
+    right: 20vh;
+}
+
+.margin-bot {
+    margin-bottom: 50px;
+}
+
+/* id styles */
+#hero-card {
+    margin-top: 8%;
+    display: flex;
+    width: 100%;
+    overflow: visible;
+}
