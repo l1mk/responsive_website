@@ -155,7 +155,21 @@ section {
 
 .arrow {
     position: relative;
-    left: 6px;
+    left: 5%;
+    top: 2px;
+    width: 24px;
+}
+
+.arrow-x {
+    position: relative;
+    left: 78%;
+    top: 2px;
+    width: 50px;
+}
+
+.arrow-s {
+    position: relative;
+    left: 80%;
     top: 2px;
     width: 25px;
 }
@@ -449,6 +463,7 @@ section {
     height: 358px;
     align-items: center;
     margin-bottom: 50px;
+    columns: 2;
 }
 
 #security-card {
@@ -560,4 +575,291 @@ section {
     z-index: -1;
     top: 210px;
     left: 445px;
+}
+
+/* ipad syle */
+@media (max-width: 850px) {
+    main {
+        width: 60vh;
+        margin: 25px auto;
+    }
+
+    #hero-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #hero-img {
+        margin: 0 auto;
+        width: 100%;
+        top: 0px;
+        right: 0px;
+    }
+
+    #header-bttn-demo {
+        display: none;
+    }
+
+    .half-col {
+        width: 110%;
+    }
+
+    .hero-title {
+        width: 100%;
+    }
+
+    .about-title {
+        margin: 0 auto 20px;
+        width: 80%;
+    }
+
+    #about-card {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+
+    #about-img {
+        display: flex;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .about-copy {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #features-card {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+
+    .feature-copy {
+        width: 100%;
+    }
+
+    .features-img {
+        width: 50%;
+        right: 5%;
+    }
+
+    .features-item {
+        width: 65%;
+    }
+
+    #features-card {
+        margin: auto;
+    }
+
+    #hours-card {
+        left: 0;
+    }
+
+    #security-card {
+        left: 0;
+    }
+
+    #vector {
+        right: -80%;
+    }
+
+    #vector1 {
+        left: 135%;
+    }
+
+    #vector2 {
+        left: 140%;
+    }
+
+    #vector3 {
+        left: 190%;
+    }
+
+    #vector4 {
+        left: 75%;
+    }
+
+    #vector5 {
+        left: 190%;
+    }
+
+    .arrow {
+        left: 10px;
+        top: 2px;
+    }
+
+    #testimonial-card {
+        margin-top: 6%;
+        margin-bottom: 12%;
+        padding-left: 0;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    #testimonial-title {
+        padding-left: 50px;
+    }
+
+    .slide-buttons {
+        padding-left: 50px;
+    }
+
+   .slide-buttons .arrow-s {
+       left: 70%;
+   }
+
+   .slide-buttons .arrow-x {
+        left: 68%;
+   }
+
+    .slide-card {
+        display: flex;
+        background-color: var(--clr-white);
+        margin: 0 auto;
+        padding: 5%;
+        width: 60%;
+    }
+
+    #try-message {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #try-copy {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    #social-col {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .footer-logo {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    #about-col,
+    #help-col {
+        display: none;
+    }
+
+    .quarter-col {
+        width: 100%;
+    }
+
+    .full-logo {
+        position: relative;
+        right: 20px;
+    }
+
+    #social-col {
+        width: 100%;
+    }
+
+    .footer-icons {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .sm-icon {
+        position: relative;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    #fb-icon { 
+        position: relative;
+        left: -34px;
+        top: -14px
+    }
+    
+    #tw-icon {
+        position: relative;
+        left: -37px;
+        top: -15px
+    }
+    
+    #ig-icon {
+        position: relative;
+        left: -37px;
+        top: -15px;
+    }
+
+}
+
+
+/* Mobile Style */
+@media (max-width: 600px) {
+
+    main {
+        width: 45vh;
+        margin: 25px auto;
+    }
+
+    #features-card {
+        padding-left: 10px;
+    }
+
+    .features-img {
+        width: 50%;
+        right: 2%;
+    }
+
+    .features-item {
+        width: 70%;
+    }
+
+    #vector {
+        right: -150px;
+    }
+
+    #vector1 {
+        left: 280px;
+    }
+
+    #vector2 {
+        left: 250px;
+    }
+
+    #vector3 {
+        left: 400px;
+    }
+
+    #vector4 {
+        left: 120px;
+    }
+
+    #vector5 {
+        left: 400px;
+    }
+
 }
